@@ -3,5 +3,4 @@
 - Git
 - HTML
 - CSS
-Javascript
-Javascript
+- Javascript

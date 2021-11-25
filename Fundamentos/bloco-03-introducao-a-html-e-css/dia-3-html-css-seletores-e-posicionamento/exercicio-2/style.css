@@ -1,21 +1,44 @@
+h1 {
+  text-align: center;
+}
 .super-mario {
-    width: 200px;
-    z-index: 1;
+    width: 180px;
+    position: absolute;
+    margin: 30px 0 0 70px;
   }
   
   .goomba {
-    width: 100px;
-    z-index: 2;
+    width: 150px;
+    position: absolute;
+    margin: 190px 0 0 500px;
   }
   
   .baloon {
-  
+    width: 150px;
+    margin-left: 270px;
+    margin-top: 220px;
+    position: absolute;
+    z-index: 2;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
   
   .speach {
-    font-size: 25px;
+    font-size: 12px;
+    margin: 255px 0 0 290px;
+    position: absolute;
+    z-index: 3;
   }
   
   .bowser {
-    width: 200px;
+    width: 120px;
+    margin: 280px 0 0 160px;
+    position: absolute;
+    z-index: 1;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
